@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress';
 
+const baseUrl = '/blog-vitepress/';
 export default defineConfig({
+  base: '/blog-vitepress/',
     lastUpdated: true,
     title: '自定义的 title',
     outDir: '../dist',
@@ -39,7 +41,7 @@ export default defineConfig({
             text: 'Edit this page on GitHub'
         },
         lastUpdatedText: "最近更新时间", // 文章更新时间
-        logo: 'icon.jpg',
+        logo: '/icon.jpg'
     },
     // locales: { // 国际化
     //     "/": {
@@ -53,5 +55,4 @@ export default defineConfig({
     //       description: "Custom description"
     //     }
     // },
-    base: '/blog-vitepress/',
 });
