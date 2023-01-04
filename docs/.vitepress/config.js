@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress';
 
-const baseUrl = '/blog-vitepress/';
 export default defineConfig({
-  base: '/blog-vitepress/',
+    head: [
+      ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
+    base: '/blog-vitepress/',
     lastUpdated: true,
     title: '自定义的 title',
     outDir: '../dist',
