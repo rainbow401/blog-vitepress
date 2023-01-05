@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
     head: [ // 增加自定义标签
-      ['link', { rel: 'icon', href: '/favicon.ico' }] // 标签图标
+      ['link', { rel: 'icon', href: '/blog-vitepress/favicon.ico' }] // 标签图标
     ],
     base: '/blog-vitepress/', // 仓库名称
     lastUpdated: true, // 开启更新时间
