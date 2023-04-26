@@ -4,7 +4,7 @@ layout: home
 hero:
 #   name: 主标题
   text: yanzhihao blog
-  tagline: 积跬步以至千里，致敬每个爱学习的你
+  tagline: 积跬步以至千里，致敬每个爱学习的你。
   bannerBg: /icon.jpg
   bodyBgImg: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg'
 
